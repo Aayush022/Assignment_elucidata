@@ -1,0 +1,29 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  margin: 0;
+  background: #eee;
+}
+.avatar-card {
+  max-width: 400px;
+  border: none;
+  background: #ffffff;
+}
+
+#team {
+  background: #eee !important;
+}
+#team {
+  border: none;
+  background: #ffffff;
+}
+section {
+  padding: 60px 0;
+  width: 100%;
+}
+
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  text-transform: uppercase;
+}

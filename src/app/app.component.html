@@ -1,0 +1,21 @@
+<ng4-loading-spinner> </ng4-loading-spinner>
+<section id="team" >
+  <div class="container-fluid">
+    <h5 class="section-title h1">ASSIGNMENT</h5>
+    <div class="row">
+      <div class="col-lg-2 col-sm-2 col-md-2 col-xs-2 " *ngFor="let data of database">
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>{{data.id}}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src={{data.avatar}} alt="Photo of a {{data.first_name}}" class="rounded-circle" style="width: 90%;margin-left: 5%;">
+          <mat-card-content>
+            <mat-card-subtitle>Name:&nbsp;{{data.first_name}}&nbsp;{{data.last_name}}</mat-card-subtitle>
+            <mat-card-subtitle>Email:&nbsp;{{data.email}}</mat-card-subtitle>
+          </mat-card-content>
+        </mat-card>
+        </div>
+
+    </div>
+  </div>
+</section>
